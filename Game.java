@@ -27,10 +27,10 @@ public class Game {
                    hint += guess.substring(i, i+1);
                 }
                 else if (hidden.indexOf(guess.substring(i,i+1)) != -1){
-                    hint +=("*");
+                    hint +=("+");
                 }
                 else{
-                    hint += "+";
+                    hint += "*";
                 }
 
 
